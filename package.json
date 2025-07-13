@@ -1,0 +1,46 @@
+{
+  "name": "weatherApp",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test:e2e": "cypress run",
+    "test:unit": "vitest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@capacitor/android": "7.4.2",
+    "@capacitor/app": "7.0.1",
+    "@capacitor/core": "7.4.2",
+    "@capacitor/haptics": "7.0.1",
+    "@capacitor/keyboard": "7.0.1",
+    "@capacitor/status-bar": "7.0.1",
+    "@ionic/vue": "^8.6.4",
+    "@ionic/vue-router": "^8.6.4",
+    "@vue/language-server": "^3.0.1",
+    "axios": "^1.10.0",
+    "ionicons": "^8.0.13",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.4.2",
+    "@vitejs/plugin-legacy": "^7.0.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/eslint-config-typescript": "^14.6.0",
+    "@vue/test-utils": "^2.4.6",
+    "cypress": "^14.5.1",
+    "eslint": "^9.31.0",
+    "eslint-plugin-vue": "^10.3.0",
+    "jsdom": "^26.1.0",
+    "terser": "^5.43.1",
+    "typescript": "~5.8.3",
+    "vite": "7.0.4",
+    "vitest": "^3.2.4",
+    "vue-tsc": "^3.0.1"
+  },
+  "description": "An Ionic project"
+}

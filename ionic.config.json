@@ -1,0 +1,8 @@
+{
+  "name": "weatherApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite",
+  "npmClient": "pnpm"
+}
